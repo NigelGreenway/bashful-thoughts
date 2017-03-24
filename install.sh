@@ -1,6 +1,6 @@
 #!/bin/bash
 
-location="$(readlink -f pwd)"
+location="$(readlink -f `pwd`)"
 
 mkdir -p $HOME/.config/bashful-thoughts
 cp $location/src/bashful_thoughts.conf $HOME/.config/bashful-thoughts/.bashful
