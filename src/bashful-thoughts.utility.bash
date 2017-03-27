@@ -1,3 +1,4 @@
+#!/bin/bash
 bashful()
 {
     source $HOME/.config/bashful-thoughts/.bashful
@@ -20,3 +21,5 @@ bashful()
 
     echo "$thought" > "$STORAGE_LOCATION$LOCATION/$FILENAME.$FILE_TYPE"
 }
+
+bashful "$@"
